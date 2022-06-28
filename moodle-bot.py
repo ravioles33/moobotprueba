@@ -21,7 +21,7 @@ username_box.send_keys("soporte")
 #busca caja de ingresar contraseña y escribe 
 
 pw_box = driver.find_element_by_id("password")
-pw_box.send_keys("Grugru333")
+pw_box.send_keys("CONTRASEÑA")
 # driver.implicitly_wait(0.5)
 pw_box.send_keys(Keys.ENTER) #así se manda enter
 
